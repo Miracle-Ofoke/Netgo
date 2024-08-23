@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "netgo-font";
+    src: url(/fonts/NeueMontreal-Regular.otf);
+}
+
+@font-face {
+    font-family: "netgo-font-B";
+    src: url(/fonts/NeueMontreal-Bold.otf);
+}
+*{
+    font-family: netgo-font;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    margin-top:  20px;
+}
+/* .logo{
+    width: 30%;
+} */
+.logo img{
+    width: 150px;
+}
+
+.links ul{
+    
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    padding: 12px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #eceff5;
+}
+
+#green-btn{
+    background-color: #caee0e;
+    border: none;
+}
+
+.intro{
+    background-color: #095763;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+}
+    
+.content h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 30;
+    padding-top: 10px;
+    font-family: netgo-font-B;
+
+}
+
+.content h2{
+    line-height: 30px;
+    font-weight: 100;
+    font-size: 16px;
+    color: #98a1ab;
+}
+.content button{
+    color: white;
+    margin-top: 20px;
+    width: 150px;
+    padding: 15px 12px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.content img{
+    width: 700px;
+    
+}
+
+.testimonial{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+.box{
+    text-align: center;
+
+}
+
+.box h2{
+    line-height: 25px;
+    font-weight: 100;
+    font-size: 16px;
+    color: #98a1ab;
+}
+
+.box h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+#mid{
+    background-color: #f1f5ef;
+    color: black;
+}
+#mid h1{
+    font-weight: 800;
+}
+#mid h2{
+    color: #98a1ab;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.icon {
+    width: 320px;
+    text-align: left;
+    height: 250px;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+
+
+.icon img{
+    width: 30px;
+    display: block;
+    margin: 20px;
+}
+.icon h1{
+    font-size: 25px;
+    text-align: left;
+}
+
+.icon1{
+    background-color: white;
+}
+
+.icon2{
+    background-color: #095763;
+    color: #D5E5E2;
+}
+.icon3{
+    background-color: #D5E5E2;
+}
