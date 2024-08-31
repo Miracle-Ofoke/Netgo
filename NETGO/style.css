@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "netgo-font-B";
-    src: url(/fonts/NeueMontreal-Bold.otf);
+    src: url(/fonts/NeueMontreal-Regular.otf);
 }
 *{
     font-family: netgo-font;
@@ -58,6 +58,7 @@
     border-radius: 20px;
     margin: 10px;
     text-align: center;
+
 }
     
 .content h1{
@@ -73,7 +74,6 @@
     line-height: 30px;
     font-weight: 100;
     font-size: 16px;
-    color: #98a1ab;
 }
 .content button{
     color: white;
@@ -81,7 +81,7 @@
     width: 150px;
     padding: 15px 12px;
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 .content img{
@@ -118,17 +118,21 @@
 #mid{
     background-color: #f1f5ef;
     color: black;
+    padding-top: 100px;
 }
 #mid h1{
     font-weight: 800;
 }
-#mid h2{
+
+.color{
     color: #98a1ab;
 }
+
 .icons{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 .icon {
     width: 320px;
@@ -137,10 +141,10 @@
     border-radius: 20px;
     padding: 30px;
     margin: 20px;
+    color: #98a1ab;
+    transition: all 500ms;
 
 }
-
-
 
 .icon img{
     width: 30px;
@@ -162,4 +166,148 @@
 }
 .icon3{
     background-color: #D5E5E2;
+}
+
+
+
+
+.icon:hover{
+    background-color: #2e7552;
+    color: white;
+    
+}
+
+.big{
+    width: 92%;
+    font-family: netgo-font-B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px;
+    padding: 50px;
+    
+
+
+}
+.left{
+    margin: 20px 50px;
+}
+.left h1{
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+
+.left h2{
+    line-height: 25px;
+    font-weight: 100;
+    font-size: 16px;
+    color: #98a1ab;
+    width:80%;
+}
+
+.left button{
+    padding: 15px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.right{
+    margin: 50px;
+    padding: 100px ;
+    background-color: #f1f5ef;
+    border-radius: 50px;
+    height: 200px;
+   
+    
+}
+.right img{
+    width: 250px;
+}
+.blue{
+    font-size: 13px;
+    color: #69999c;
+    border: #69999c 1px solid;
+    display: inline;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background: none;
+}
+
+.price{
+    text-align: center;
+}
+.price h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+    font-family: netgo-font-B;
+}
+
+.description{
+    color: #98a1ab;
+    font-size: 16px;
+}
+
+
+.money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cash{
+    height: 400px;
+    width: 320px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+    color: #95b7bb;
+    transition: all 500ms;
+    background-color: #095763;
+
+}
+
+
+
+.cash h1{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+
+}
+
+h1.text{
+    font-size: 50px;
+    display: inline;
+}
+.bb{
+    padding:20px 120px 30px 0px;
+    border-bottom:1px dashed #95b7bb ;
+    
+}
+
+.check img{
+    width: 15px;
+    margin-right: 5px;
+}
+.check{
+    margin: 50px 0px 0px 0px;
+    
+}
+
+.grey{
+    background-color: #D5E5E2;
+
+}
+
+
+.grey h1{
+    color: black;
+    font-weight: 600;
+}
+.price{
+    background-color: #f1f5ef ;
+    padding-top: 80px;
+    border-radius: 20px;
+    margin: 0px 10px;
 }
