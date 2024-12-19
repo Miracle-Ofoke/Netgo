@@ -11,6 +11,7 @@
     font-family: netgo-font;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .navbar{
@@ -19,6 +20,7 @@
     align-items: center;
     height: 30%;
     margin-top:  20px;
+
 }
 /* .logo{
     width: 30%;
@@ -310,4 +312,48 @@ h1.text{
     padding-top: 80px;
     border-radius: 20px;
     margin: 0px 10px;
+}
+.white{
+    background-color: #fff;
+    width: 60%;
+    margin: 10px auto;
+    text-align: left;
+    padding: 25px 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.l h2{
+    margin-bottom: 10px;
+}
+.r button{
+     width: 120px;
+     height: 40px;
+     font-weight: 600;
+}
+.trust{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.img img{
+    width: 120px;
+    padding: 20px ;
+}
+
+#gt{
+    height: 400px;
+    background-color: #F1F5EF;
+    color: black;
+    
+}
+
+#gt h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#gt img{
+    width: 50px;
 }
