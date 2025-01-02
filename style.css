@@ -1,11 +1,11 @@
 @font-face {
     font-family: "netgo-font";
-    src: url(/fonts/NeueMontreal-Regular.otf);
+    src: url(./fonts/NeueMontreal-Regular.otf);
 }
 
 @font-face {
     font-family: "netgo-font-B";
-    src: url(/fonts/NeueMontreal-Regular.otf);
+    src: url(./fonts/NeueMontreal-Regular.otf);
 }
 *{
     font-family: netgo-font;
