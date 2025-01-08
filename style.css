@@ -421,6 +421,10 @@ h1.text{
     #green-btn{
         display: none;
     }
+    
+    .content img{
+        width: 300px;
+    }
     /* Add more styles for mobile devices */
 }
 
