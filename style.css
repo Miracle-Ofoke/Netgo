@@ -426,7 +426,7 @@ h1.text{
         width: 60px;
     }
 
-    #green-btn{
+    .btn-links .btn{
         display: none;
     }
     
