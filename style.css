@@ -414,9 +414,12 @@ h1.text{
 
 /* Mobile devices (portrait and landscape) */
 @media (max-width: 480px) {
-    .navbar {
-        flex-direction: column;
-        height: auto;
+    .links ul{
+        display: none;
+    }
+
+    #green-btn{
+        display: none;
     }
     /* Add more styles for mobile devices */
 }
