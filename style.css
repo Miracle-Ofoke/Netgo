@@ -423,7 +423,7 @@ h1.text{
 
     .menu{
         display: block;
-        width: 60px;
+        
     }
 
     .btn-links button{
@@ -434,9 +434,7 @@ h1.text{
         width: 25px;
         
     }
-    .navbar{
-        margin: 10px;
-    }
+    
     /* Add more styles for mobile devices */
 }
 
