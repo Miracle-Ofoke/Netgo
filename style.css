@@ -411,3 +411,38 @@ h1.text{
 .end img{
     width: 20px;
 }
+
+
+/* Mobile devices (portrait and landscape) */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+    /* Add more styles for mobile devices */
+}
+
+/* Tablets (portrait and landscape) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* Add more styles for tablets */
+}
+
+/* Small desktops and laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        justify-content: space-around;
+    }
+    /* Add more styles for small desktops and laptops */
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1025px) {
+    .navbar {
+        justify-content: space-around;
+    }
+    /* Add more styles for large desktops and laptops */
+}
