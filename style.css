@@ -410,12 +410,19 @@ h1.text{
 .end img{
     width: 20px;
 }
+.menu{
+    display: none;
+}
 
 
 /* Mobile devices (portrait and landscape) */
 @media (max-width: 480px) {
-    .links ul{
+    .links {
         display: none;
+    }
+
+    .menu{
+        display: block;
     }
 
     #green-btn{
