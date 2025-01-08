@@ -422,8 +422,9 @@ h1.text{
         display: none;
     }
     
-    .intro-img{
+    .content img{
         width: 50px;
+        
     }
     /* Add more styles for mobile devices */
 }
