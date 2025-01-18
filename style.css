@@ -439,6 +439,9 @@ h1.text{
         
     }
     
+    .icons{
+        flex-wrap: wrap;
+    }
     /* Add more styles for mobile devices */
 }
 
